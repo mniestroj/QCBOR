@@ -2,6 +2,13 @@
 
 QCBOR encodes and decodes [RFC 7049](https://tools.ietf.org/html/rfc7049) CBOR.
 
+## Before Spiffy Decode
+
+This is an archive branch of QCBOR without the large spiffy decode
+addition in case someone wants to go back to it. Spiffy decode is 
+backwards compatible so there should be no need for this, but it is
+here just in case.
+
 ## Characteristics
 
 **Implemented in C with minimal dependency** – The only dependencies
